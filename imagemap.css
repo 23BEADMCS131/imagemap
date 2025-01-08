@@ -1,0 +1,55 @@
+body{
+   
+    background-color: lightgrey;
+    text-align: center;  
+  
+}
+
+header{
+    /*background: linear-gradient(45deg, red, yellow, green);*/
+    background: radial-gradient(circle, pink, purple, blue);
+    text-align: center;
+}
+
+header nav ul{
+    padding: 10px;
+}
+
+header nav ul li{
+    color: sandybrown;
+    display: inline;
+    padding: 100px;
+}
+
+header nav ul li a{
+    color: coral;
+    text-decoration: none;
+}
+
+#move ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#move li{
+    width: 300px;
+    background-color: lightcoral;
+}
+
+#slide img{
+    transition: transform 0.5s ease;
+}
+
+#slide:hover img {
+    transform: scale(1.2);
+    transform: skew(3deg, 1deg);
+  }
+
+  
+footer p {
+    text-align: center;
+    padding: 20px;
+    background-color:white;
+    color: black;
+    margin-top: 20px;
+}
